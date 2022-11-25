@@ -5,17 +5,19 @@ int B = Convert.ToInt32(Console.ReadLine());
 int max = A;
 if (A > max)
 {
-    Console.WriteLine(max = A);
+    max = A;
+    Console.WriteLine("Max =" +max);
 }
 else
 {
     if (B > max)
       {
-        Console.WriteLine(max = B);
+        max = B;
+        Console.WriteLine("Max = " +max);
       }
-      else 
+      else
       {
-        Console.WriteLine(max);
+        Console.WriteLine("Max =" +max);
       }
 }    
     
